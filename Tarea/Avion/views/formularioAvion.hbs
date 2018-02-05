@@ -1,0 +1,28 @@
+<form  action="formularioAvion" method="post">
+  <label>Boletos De Honduras</label> <br>
+  <label>Nombre Completo</label>
+  <input type="text" name="txtName" value="{{Nombre}}"placeholder="Nombre Completo"> <br>
+
+  <label>Numero De Identidad</label>
+  <input type="text" name="txtIdentidad" value="{{Identidad}}" placeholder="Identidad"> <br>
+
+  <label>Edad De Cliente</label>
+  <input type="number" name="txtEdad" value="{{Edad}}">
+
+  <label>Vuelos</label>
+  <select name="vuelo">
+    <option value="1500"{{cbTeguSPS}}>Tegucigalpa a San Pedro Sula</option>
+    <option value="2000">{{cbTeguCeiba}}Tegucigalpa a Ceiba</option>
+    <option value="1500"{{cbSPSTegu}}>San Pedro Sula a Tegucigalpa</option>
+    <option value="2000"{{cbCeibaTegu}}>Ceiba a Tegucigalpa</option>
+    </select>
+    <label>Numero De Dias</label>
+    <input type="number" name="txtDias" value="{{Dias}}">
+
+    <input type="submit" value="Imprimir Ticket">
+</form>
+
+<div>
+ {{Resultado}}
+
+</div>
