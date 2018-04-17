@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="#E3F2FD"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Numero 1"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Numero 2"
+        android:inputType="number" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/sumar"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginHorizontal="5sp"
+            android:layout_marginVertical="10sp"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:text="suma"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+
+
+            />
+
+        <Button
+            android:id="@+id/restar"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginHorizontal="5sp"
+            android:layout_marginVertical="10sp"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:text="resta"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+
+
+            />
+
+        <Button
+            android:id="@+id/mul"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginHorizontal="5sp"
+            android:layout_marginVertical="10sp"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:text="mul"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+
+
+            />
+
+        <Button
+            android:id="@+id/div"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginHorizontal="5sp"
+            android:layout_marginVertical="10sp"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:text="div"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+
+
+            />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="00"
+        android:textSize="120sp"
+
+        />
+
+
+</LinearLayout>
